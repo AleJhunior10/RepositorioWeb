@@ -38,6 +38,8 @@ header img {
     width: 150px;
     height: auto;
     float: right;
+    position: absolute;
+    top: 50px;
 }
 
 footer {
