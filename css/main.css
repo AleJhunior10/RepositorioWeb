@@ -8,19 +8,25 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#381043;
+    color:#008cff;
 }
 
 h1 {
-    font-size: 2rem;
-    color:#381043;
+    font-size: 27px;
+    color:#000000;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 20px;
     text-align: center;
-    border-bottom: 2px solid #bbb;
+    border-bottom: 2px solid silver;
+    
 }
+
+/*h3 {
+    text-align: center;
+    border-bottom: 2px solid silver;
+}*/
 
 header, main, footer {
     margin: 1.25rem auto;
@@ -30,14 +36,18 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:#8A6694;
+    background-color:#5974ce;
     color: whitesmoke;
 }
 
 header img {
-    width: 150px;
+    width: 180px;
     height: auto;
     float: right;
+    position: relative;
+    top: 15px;
+    border: silver 10px solid;
+    padding: 10px;
 }
 
 footer {
