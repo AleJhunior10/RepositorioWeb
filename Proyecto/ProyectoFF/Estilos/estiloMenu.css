@@ -100,12 +100,6 @@
    background: turquoise;
 }
 
-/*.main{
-    background-color: white;
-    background-size: cover;
-    height: 90vh;
-}*/
-
 .Fondo1{
     background-color: white;
     background-size: cover;
@@ -114,14 +108,15 @@
 
 .contenido
 {
-    width: 70%;
+    width: 60%;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 20px;
 }
 
 .item
@@ -174,7 +169,7 @@
 .Fondo2{
     background-color: white;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 .Contenedor2{
@@ -206,6 +201,14 @@
     border-bottom: solid 2px black;
 }
 
+.Texto2 h1{
+    margin-bottom: 20px;
+}
+
+.Texto2 p{
+    margin-bottom: 40px;
+}
+
 .Img22{
     width: 30%;
     height: auto;
@@ -216,7 +219,7 @@
 .Fondo3{
     background-color: white;
     background-size: cover;
-    height: 45vh;
+    height: 43vh;
 }
 
 .Contenedor3{
@@ -239,7 +242,6 @@
 }
 
 .Texto3{
-    /*background-color: wheat;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,6 +252,14 @@
     border-bottom: solid 2px black;
 }
 
+.Texto3 h1{
+    margin-bottom: 20px;
+}
+
+.Texto3 p{
+    margin-bottom: 40px;
+}
+
 .Img33{
     width: 30%;
     height: auto;
@@ -257,35 +267,189 @@
     top: 40px;
 }
 
-.Fondo4{
-    background-color: black;
-    background-size: cover;
-    height: 20vh;
-}
-
-.ImgRedes{
-    width: 50px;
-}
-
-.Fondo4 h3{
-     color: white;
-     margin-left: 20px;
-     font-size: 13px;
- }
-
- .aside {
+.aside {
     background-color: white;
     background-size: cover;
     height: 50%;
     display: flex;
     justify-content: center;
-
  }
 
  .aside img{
-     width: 60%;
+     width: 30%;
      height: auto;
+     padding: 20px;
  }
+
+.Fondo4{
+    background-color: black;
+    background-size: cover;
+    height: 10vh;
+}
+
+.ImgRedes{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40px;
+    color: white;
+    font-size: 13px;
+}
+
+.ImgRedes img{
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.ImgRedes h3{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 950px){
+    .navegador{
+        align-items: center;
+        flex-direction: column;
+        height: 160px;
+    }
+
+    .centro h1{
+        font-size: 63px;
+    }
+
+    .centro p{
+        font-size: 13px;
+    }
+    
+    .FlexBotones button{
+       height: 30px;
+       width: 90px;
+       font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .navegador ul li a{
+        font-size: 14px;
+    }
+    
+    .active{
+        display: none;
+    }
+
+    .centro h1{
+        font-size: 50px;
+    }
+
+    .centro p{
+        font-size: 11px;
+    }
+
+    .FlexBotones button{
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+     }
+
+    .Fondo2{
+        height: 28vh;
+    }
+
+     .Img22{
+        display: none;
+    }
+
+    .Contenedor2 div{
+        width: 50%;
+        height: auto;
+    }
+
+    .Img2{
+        width: 49%;
+        height: auto;
+    }
+
+    .Texto2{
+        border-top: none;
+        border-bottom: none;
+        font-size: 12px;
+    }
+
+    .Fondo3{
+        height: 30vh;
+    }
+
+    .Img33{
+        display: none;
+    }
+
+    .Contenedor3 div{
+        width: 50%;
+        height: auto;
+    }
+
+    .Img3{
+        width: 48%;
+        height: auto;
+    }
+
+    .Texto3{
+        border-top: none;
+        border-bottom: none;
+        font-size: 12px;
+    }
+
+    .ImgRedes{
+        width: 88%;
+        font-size: 11px;
+    }
+    
+    .ImgRedes img{
+        width: 40px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .ImgRedes h3{
+        margin-top: 23px;
+        margin-right: 20px;
+    }
+    .item-text
+    {
+        font-size: 12px;
+    }
+
+    .FlexBotones button{
+        border: 1px solid black;
+     }
+
+     .contenido
+    {
+    width: 80%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /*.Contenedor1{
