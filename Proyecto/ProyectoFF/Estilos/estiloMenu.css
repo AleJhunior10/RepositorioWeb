@@ -100,70 +100,161 @@
    background: turquoise;
 }
 
-.main{
+/*.main{
     background-color: white;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
+}*/
+
+.Fondo1{
+    background-color: white;
+    background-size: cover;
+    height: 37%;
+ }
+
+.contenido
+{
+    width: 70%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.item
+{
+    width: 100%;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
+    transition: all 300ms;
+    position: relative;
+    margin-left: 30px;
+}
+
+.item::after
+{
+    content: "";
+    background-color: rgba(179, 229, 252, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+
+.item:hover::after
+{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.item:hover
+{
+    transform: scale(1.05);
+}
+
+.item-text
+{
+    padding: 1em;
+}
+
+.item-img
+{
+    max-width: 100%;
+    display: block;   
 }
 
 .Fondo2{
     background-color: white;
     background-size: cover;
-    height: 50%;
-    border-bottom: solid 2px black;
+    height: 45vh;
 }
 
 .Contenedor2{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Contenedor2 div{
+    width: 30%;
+    height: auto;
 }
 
 .Img2{
-    width: 37%;
+    width: 30%;
     height: auto;
     position: relative;
-    top: 25px;
-    left: 40px;
+    top: 40px;
 }
 
 .Texto2{
-    border: 2px solid black;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     position: relative;
-    top: 25px;
-    right: 100px;
+    top: 40px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.Img22{
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 40px;
 }
 
 .Fondo3{
     background-color: white;
     background-size: cover;
-    height: 50%;
-    border-bottom: solid 2px black;
+    height: 45vh;
 }
 
 .Contenedor3{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.Contenedor3 div{
+    width: 30%;
+    height: auto;
 }
 
 .Img3{
-    width: 37%;
+    width: 30%;
     height: auto;
-    float: right;
     position: relative;
-    top: 25px;
-    right: 40px;
+    top: 40px;
 }
 
 .Texto3{
-    border: 2px solid black;
-    padding: 20px;
+    /*background-color: wheat;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     position: relative;
-    top: 25px;
-    left: 100px;
+    top: 40px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.Img33{
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 40px;
 }
 
 .Fondo4{
@@ -181,4 +272,48 @@
      margin-left: 20px;
      font-size: 13px;
  }
+
+ .aside {
+    background-color: white;
+    background-size: cover;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .aside img{
+     width: 60%;
+     height: auto;
+ }
+
+
+ /*.Contenedor1{
+     display: flex;
+     padding: 10px;
+     justify-content: center;
+     position: relative;
+     top: 10px;
+     border: solid 2px black;
+ }
+
+ .Contenedor1 .item{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     width: 30%;
+     padding: 10px;
+     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .095);
+ }
+
+ .Contenedor1 img{
+     width: 50%;
+ }
+
+ .Contenedor1 img:hover{
+     border: solid 2px black;
+     
+}*/
+
 
