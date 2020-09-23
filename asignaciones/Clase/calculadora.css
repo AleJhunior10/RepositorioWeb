@@ -1,0 +1,42 @@
+.contenedor{
+    width: 200px;
+    height: 330px;
+    background-color: rgb(0, 145, 182);
+    border: black;
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    position: relative;
+    top: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    background-color: cadetblue;
+    border: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.operador{
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#numero1{
+    text-align: center;
+    border: 5px wheat;
+}
+
+#numero2{
+    text-align: center;
+}
+
+#resultado{
+    text-align: center;
+}
