@@ -308,6 +308,10 @@
     margin-right: 20px;
 }
 
+.hora{
+    color: white;
+}
+
 
 @media screen and (max-width: 950px){
     .navegador{
