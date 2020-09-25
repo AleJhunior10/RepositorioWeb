@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RestauranteFF</title>
     <link rel="stylesheet" href="Estilos/estiloMenu.css">
-    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-500BUHËMVPQ +1lwayS7PTFmhCaxpOML 506OMIM7UH2+nquivzIebhndoJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:ital,wght@0,300;1,900&display=swap"
         rel="stylesheet">
     <link
@@ -17,17 +18,21 @@
 <body>
     <header>
         <div class="fondo">
-            <nav class="navegador">
-                <img class="logo" src="Imagenes/Logo1.png" alt="Logotipo">
-                <ul>
-                    <li><a class="active" href="#">Inicio</a></li>
-                    <li><a href="Felix/delivery/store.html">Menu</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contactos</a></li>
-                    <li><a href="#">Acerca de</a></li>
-                    <li><a href="#">Galeria</a></li>
-                </ul>
-            </nav>
+            <div class="cabeza">
+                <div><img class="logo" src="Imagenes/Logo1.png" alt="Logotipo"></div>
+                <nav id="navegador">
+                    <ul>
+                        <li><a class="active" href="#">Inicio</a></li>
+                        <li><a href="Felix/delivery/store.html">Menu</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contactos</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Galeria</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+                <script src="JavaScript/JsMenu.js"></script>
+            </div>
             <div class="centro">
                 <h1>Bienvenidos a Fast Food</h1>
                 <p>Contamos con un menu variado desponible para todos apetitos, llevamos sus pedidos hasta la puerta de
@@ -104,11 +109,17 @@
                 <img src="Imagenes/instagram.jpg" alt="Redes">
                 <h3>@al3_junior</h3>
             </div>
-            <div class="TextoRedes">
-            </div>
-            <div class="hora"><script src="JavaScript/JsMenuInicio.js"></script></div> 
         </div>
-
+        <div class="Fondo5">
+            <div class="hora">
+                <h3>Hora</h3>
+                <script src="JavaScript/JsMenuInicio.js"></script>
+            </div>
+            <div class="fecha">
+                <h3>Fecha</h3>
+                <script src="JavaScript/JsFecha.js"></script>
+            </div>
+        </div>
     </footer>
 </body>
 

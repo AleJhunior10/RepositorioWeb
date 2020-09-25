@@ -1,24 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="calculadora.css">
 </head>
-<body>
-    <div class="contenedor">
-        <form action="">
-            <p>Calculadora</p>
-            <input type="text" id="numero1">
-            <p class="operador">+</p>
-            <input type="text" id="numero2">
-            <p class="operador">=</p>
-            <input type="text" id="resultado" readonly>
-            <input type="button" class="btn" onclick="suma()" value="Resultado">
 
-        </form>
+<body>
+    <div class="calcu">
+        <div class="contenedor">
+            <form action="">
+                <h2>Suma</h2>
+                <p>Numero 1</p>
+                <input type="text" id="numero1">
+                <p class="operador">+</p>
+                <p>Numero 2</p>
+                <input type="text" id="numero2">
+                <p class="operador">=</p>
+                <input type="text" id="resultado" readonly>
+                <input type="button" class="btn" onclick="suma()" value="Suma">
+        </div>
+        <div class="contenedor">
+            <form action="">
+                <h2>Mayor</h2>
+                <p>Numero 1</p>
+                <input type="text" id="numero11">
+                <p>Numero 2</p>
+                <input type="text" id="numero22">
+                <p>El Mayor es:</p>
+                <input type="text" id="resultado1" readonly>
+                <input type="button" class="btn" onclick="mayor()" value="Mayor">
+        </div>
+        <div class="contenedor">
+            <form action="">
+                <h2>Factorial</h2>
+                <p>Numero:</p>
+                <input type="text" id="numero111">
+                <p>Factorial:</p>
+                <input type="text" id="resultado2" readonly>
+                <input type="button" class="btn" onclick="factorial1()" value="Factorial">
+        </div>
+        <script src="calculadora.js"></script>
     </div>
-    <script src="calculadora.js"></script>
 </body>
+
 </html>
