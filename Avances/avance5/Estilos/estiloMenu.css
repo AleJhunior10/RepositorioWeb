@@ -109,15 +109,22 @@
 }
 
 .btn{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
     padding:  15px 30px;
     color: black;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 15px;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 20px;
     margin-left: 5px;
 }
+
+.btn:hover{
+    background: #3498DB;
+}
+
 /*.FlexBotones button{
    height: 40px;
    width: 110px;
