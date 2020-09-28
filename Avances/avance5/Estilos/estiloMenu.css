@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url(fondoFood.jpg);
+    background-image: url(Food.jpg);
     background-size: 200%;
     animation: movimiento 6s infinite linear alternate;
 }
