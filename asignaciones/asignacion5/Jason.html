@@ -19,19 +19,17 @@
     </section>
 
     <script>
-
         const header = document.querySelector('header');
         const section = document.querySelector('section');
 
         const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
         const request = new XMLHttpRequest();
         request.open('GET', requestURL);
-        request.responseType = 'text';
+        request.responseType = 'json';
         request.send();
 
         request.onload = function () {
-            const superHeroesText = request.response;
-            const superHeroes = JSON.parse(superHeroesText);
+            const superHeroes = request.response;
             populateHeader(superHeroes);
             showHeroes(superHeroes);
         }
@@ -44,7 +42,6 @@
             const myPara = document.createElement('p');
             myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
             header.appendChild(myPara);
-
         }
 
         function showHeroes(jsonObj) {
@@ -79,11 +76,6 @@
                 section.appendChild(myArticle);
             }
         }
-
-        const myJSON = { "name": "Chris", "age": "38" };
-        myJSON
-        const myString = JSON.stringify(myJSON);
-        myString
 
     </script>
 </body>
