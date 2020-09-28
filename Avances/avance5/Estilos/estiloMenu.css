@@ -108,15 +108,26 @@
     padding: 10px;
 }
 
-.FlexBotones button{
+.btn{
+    padding:  15px 30px;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+/*.FlexBotones button{
    height: 40px;
    width: 110px;
    font-size: 16px;
    font-weight: bold;
    font-family: 'Times New Roman', Times, serif;
    color: white;
-   background: #0099ff;
-   border: none/*1px solid white*/;
+   background: #0099ff2d;
+   border: 8px bold black;
+   border-radius: 10px;
    outline: none;
    cursor: pointer;
    text-align: center;
@@ -128,7 +139,7 @@
 
 .FlexBotones button:hover{
    background: turquoise;
-}
+}*/
 
 .Fondo1{
     background-color: white;
