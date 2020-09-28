@@ -236,6 +236,7 @@
     height: auto;
     position: relative;
     top: 40px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
 }
 
 .Texto2{
@@ -247,6 +248,7 @@
     top: 40px;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
+    
 }
 
 .Texto2 h1{
@@ -262,7 +264,43 @@
     height: auto;
     position: relative;
     top: 40px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
 }
+
+
+.animation{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.mostrarDerecha{
+    animation: mostrarDerecha 1s;
+}
+
+@keyframes mostrarDerecha{
+    0% { 
+        transform: translateX(-100px);
+    }
+
+    100% { 
+        transform: translateX(0px);
+    }
+}
+
+.mostrarIzquierda{
+    animation: mostrarIzquierda 1s;
+}
+
+@keyframes mostrarIzquierda{
+    0% { 
+        transform: translateX(100px);
+    }
+
+    100% { 
+        transform: translateX(0px);
+    }
+}
+
 
 .Fondo3{
     background-color: white;
@@ -287,6 +325,7 @@
     height: auto;
     position: relative;
     top: 40px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
 }
 
 .Texto3{
@@ -313,23 +352,8 @@
     height: auto;
     position: relative;
     top: 40px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
 }
-
-/*.aside {
-    background-color: white;
-    background-size: cover;
-    height: 50%;
-    display: flex;
-    justify-content: center;
- }
-
- .aside img{
-     width: 30%;
-     height: auto;
-     padding: 20px;
- }*/
-
-
 
 .Animado{
     width: 100%;
