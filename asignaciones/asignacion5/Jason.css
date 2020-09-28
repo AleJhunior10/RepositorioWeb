@@ -1,0 +1,47 @@
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(0, 140, 255);
+  }
+  
+  h1, h2 {
+    font-family: 'Faster One', cursive;
+  }
+  
+  /* header styles */
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* section styles */
+  
+  section article {
+    width: 33%;
+    float: left;
+  }
+  
+  section p {
+    margin: 10px 0;
+  }
+  
+  section ul {
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-size: 35px;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+  }
