@@ -126,7 +126,9 @@
 }
 
 .Fondo1{
-    
+    background-color: white;
+    background-size: cover;
+    height: 37%;
  }
 
 .contenido
@@ -684,6 +686,29 @@
     .btn{
         font-size: 9px;
         padding:  7px 15px;
+    }
+
+    .Img3{
+        width: 50%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    
+    .Img3{
+        width: 40%;
+        height: 130px;
+    }
+
+    .Texto2 h1{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .Texto3 h1{
+        margin-bottom: 5px;
+        font-size: 12px;
     }
 }
 
