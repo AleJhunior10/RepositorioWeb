@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inicio de Sesion</title>
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<section class="form-login">
+			<h5>Inicio de Sesion</h5>
+			<form action="" id="formulario">
+				<div>	
+					<label for="nombre">Nombre de Usuario</label>
+					<input type="text" id="nombre" placeholder="Ingrese nombre de ususario" class="controls">
+				</div>
+				<div>	
+					<label for="password">Contraseña</label>
+					<input type="password" id="contraseña" placeholder="*******" class="controls">
+				</div>
+				<a href=""><input type="submit" value='Iniciar Sesion' class="button"></a>
+				<br><br>
+				<p>¿No tienes una cuenta? <a class="link" href="registroUsuario.html">Registrate</a></p>
+			</form>
+			<br>
+			<div id="error"></div>
+			
+		</section>
+		<script src="login.js"></script>
+	</body>
+</html>

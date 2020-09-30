@@ -125,33 +125,8 @@
     background: #3498DB;
 }
 
-/*.FlexBotones button{
-   height: 40px;
-   width: 110px;
-   font-size: 16px;
-   font-weight: bold;
-   font-family: 'Times New Roman', Times, serif;
-   color: white;
-   background: #0099ff2d;
-   border: 8px bold black;
-   border-radius: 10px;
-   outline: none;
-   cursor: pointer;
-   text-align: center;
-}
-
-.FlexBotones .Btn{
-   margin-left: 20px;
-}
-
-.FlexBotones button:hover{
-   background: turquoise;
-}*/
-
 .Fondo1{
-    background-color: white;
-    background-size: cover;
-    height: 37%;
+    
  }
 
 .contenido
@@ -655,6 +630,11 @@
         background: #3498DB;
     }
 
+    .btn{
+        padding:  15px 30px;
+        font-size: 13px;
+    }
+
     .hora{
         font-size: 13px;
         margin-top: 15px;
@@ -684,6 +664,26 @@
 
     .Txt h3{
         font-size: 8px;
+    }
+
+    .ImgRedes h3{
+        display: none;
+    }
+
+    .ImgRedes{
+        margin-left: 20px;
+    }
+
+    .btn{
+        font-size: 10px;
+        padding:  10px 25px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .btn{
+        font-size: 9px;
+        padding:  7px 15px;
     }
 }
 
