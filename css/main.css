@@ -1,0 +1,51 @@
+/* Tecnologia Web- Plantilla CSS del portal de asignación */
+/* Puede usar #HEX o nombres de colores */
+/* * es un comodín que se refiere a todos los elementos. */
+
+/* { margin: 0; box-sizing: border-box; } */
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family:Ubuntu,sans-serif;
+    color:#008cff;
+}
+
+h1 {
+    font-size: 27px;
+    color:#000000;
+}
+
+h2 {
+    font-size: 23px;
+    text-align: center;
+    border-bottom: 2px solid silver;
+    
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 600px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color:#5974ce;
+    color: whitesmoke;
+}
+
+header img {
+    width: 180px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 15px;
+    border: silver 10px solid;
+    padding: 10px;
+}
+
+footer {
+    font-size: 0.75rem;
+}
+
