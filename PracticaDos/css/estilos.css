@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100vh;
+    /*color: white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Cuerpo{
+    background-color: white;
+    width: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Cabeza{
+    background-color: black;
+    text-align: center;
+    padding: 30px 0 40px;
+    clip-path: circle(30% at 50% 50%);
+}
+
+.Contenedor{
+    background-color: rgb(122, 122, 212);
+}
+
+.Cabeza h1{
+    color: white;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.Cabeza img{
+    vertical-align: top;
+    width: 200px;
+    padding: 35px;
+}
+
+.pasos{
+    padding: 10px 0;
+}
+
+.Formulario{
+    padding: 10px 40px 40px;
+}
+
+.Titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 32px;
+    overflow: hidden;
+    color: rgb(122, 122, 212);
+}
+
+h3{
+    position: relative;
+    display: inline-block;
+    color:  rgb(122, 122, 212);
+    padding: 0 10px;
+}
+
+h3::after,
+h3::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: teal;
+    top: 0.5rem;
+}
+
+h3::after{
+    left: 100%;
+}
+
+h3::before{
+    right: 100%;
+}
+
+.Formulario{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.inputs{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid teal;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    padding-left: 10px;
+    cursor: text;
+    transition: all .3s ease;
+}
+
+.form-input:focus + label {
+    top: -14px;
+    font-size: 12px;
+}
+
+.active{
+    top: -14px;
+    font-size: 12px;
+}
+
+.vacio{
+    color: red;
+}
+
+input[type="submit"]{
+    background: none;
+    border: none;
+    background-color:  rgb(122, 122, 212);
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: teal;
+}
+
+.inputs > p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.inputs p > a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.inputs p > a:hover{
+    text-decoration: underline;
+}
+
+.Formularios{
+    display: none;
+}
+
+.Formularios:nth-child(2) {
+    display: block;
+}
+
+#validacion{
+    color: red;
+}
+
+#verde{
+    font-size: 12px;
+    background-color: green;
+}
+
+#dos{
+    font-size: 12px;
+}
