@@ -23,6 +23,10 @@ h2 {
     
 }
 
+h3{
+    color: black;
+}
+
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
