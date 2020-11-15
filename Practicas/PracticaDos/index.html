@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 </head>
 
 <body>
@@ -69,11 +73,20 @@
                 </div>
 
                 <div class="inputs">
+                    <label for="fecha">Fecha de Nacimiento</label>
+                </div>
+
+                <div class="inputs">
+                    <input type="text" class="form-input" name="nacimiento" value="" />
+                </div>
+
+                <div class="inputs">
                     <input type="submit" id="next" class="form-input login" value="Registrar">
                     <p>No tienes Cuenta <a href="#" class="login">Ingresar Aqui</a></p>
                 </div>
             </form>
         </div>
+        <script src="js/fecha.js"></script>
     </div>
     <script src="js/animados.js"></script>
 </body>
